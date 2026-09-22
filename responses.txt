@@ -1,0 +1,6 @@
+1. Why is a stack the right choice for undo/redo?
+    The visual of a stack of books helps with this, because the last book you put on the stack is the first to come off. So, undoing and redoing the last action makes most sense for a stack.
+2. Why is a queue better suited for the help desk?
+    For a help desk, it's like waiting in a line, where the first person in line goes first, not the last. The first in the queue is at the bottom, which conflicts with the stack approach because the last to be added is the first to go.
+3. How do your implementations differ from Python’s built-in lists?
+    Regular lists in Python don't really have a lot to them. With my implementations, theres an organized structure. I could just append to a regular list, which is in no particular order. But these lists have a specific order. 
